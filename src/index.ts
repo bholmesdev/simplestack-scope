@@ -1,7 +1,6 @@
 import { createHash } from "node:crypto";
 import type { Plugin } from "vite";
 import { normalizePath } from "vite";
-import "../ambient.d.ts";
 
 const virtualMod = "simple:scope";
 
