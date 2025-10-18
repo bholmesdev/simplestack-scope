@@ -16,8 +16,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/bholmesdev/simple-stack.git",
-		"directory": "packages/scope"
+		"url": "https://github.com/bholmesdev/simplestack-scope.git"
 	},
 	"author": "bholmesdev",
 	"license": "MIT",
