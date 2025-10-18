@@ -19,16 +19,14 @@
 		"url": "https://github.com/bholmesdev/simple-stack.git",
 		"directory": "packages/scope"
 	},
-	"dependencies": {
-		"typescript": "^5.5.3",
-		"vite": "^5.0.10"
-	},
 	"author": "bholmesdev",
 	"license": "MIT",
 	"engines": {
 		"node": ">=18.14.1"
 	},
 	"devDependencies": {
-		"astro": "^4.12.2"
+		"@types/node": "^24.8.1",
+		"typescript": "^5.9.3",
+		"vite": "^5.0.10"
 	}
 }
