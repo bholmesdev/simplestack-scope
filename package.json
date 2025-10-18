@@ -4,7 +4,10 @@
 	"description": "Get a scoped ID for whatever file you're in. Zero client-side JS.",
 	"type": "module",
 	"exports": {
-		".": "./dist/index.js",
+		".": {
+			"import": "./dist/index.js",
+			"types": "./dist/index.d.ts"
+		},
 		"./types": "./ambient.d.ts"
 	},
 	"files": [
@@ -12,7 +15,8 @@
 		"ambient.d.ts"
 	],
 	"scripts": {
-		"build": "tsc"
+		"build": "tsc",
+		"prepublishOnly": "pnpm build"
 	},
 	"repository": {
 		"type": "git",
